@@ -3,7 +3,7 @@
 def batch_badge_creator(array)
   bdg_array = []
    attendees.each do |name|
-     bdg_array.push "Hello, my name is #{name}."
+     return "Hello, my name is #{name}."
      
    end
  end
