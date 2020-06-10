@@ -1,6 +1,7 @@
  attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  
 def batch_badge_creator(array)
+  bdg 
    attendees.each do |name|
      return "Hello, my name is #{name}."
      
